@@ -1,0 +1,6 @@
+.intro-section {
+  @apply bg-center bg-no-repeat bg-[length:100%_auto];
+  background-image: url("../assets/bg-curvy-mobile.svg");
+  background-image: url("../assets/bg-curvy-mobile.svg"),
+    linear-gradient(180deg, hsl(217, 28%, 15%) 60%, hsl(218, 28%, 13%) 40%);
+}
