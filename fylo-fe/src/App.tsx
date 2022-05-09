@@ -1,25 +1,21 @@
 import "./styles/App.scss";
 
-import React from "react";
+import Features from "./components/Features";
+import Intro from "./components/Intro";
+import Navbar from "./components/common/Navbar";
+import SignupBox from "./components/SignupBox";
+import Testimonials from "./components/Testimonials/Testimonials";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        </a>
-      </header>
+      <Navbar />
+      <Intro />
+      <Features />
+      <Testimonials />
+      <SignupBox />
     </div>
   );
-}
+};
 
 export default App;
